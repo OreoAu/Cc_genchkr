@@ -88,14 +88,14 @@ Follow the Flask best practices in organizing the project directories and files.
 
 
 ## Next Steps
-## Deployment Guide
-
-Follow the steps below to deploy the Card Checker Web Application to a production environment. We are using Heroku as our chosen deployment platform.
-
-1. Sign up for a [Heroku](https://www.heroku.com/) account if you don't have one already.
-2. Install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) on your local machine.
-3. Log in to your Heroku account by running `heroku login` in your command line.
-
+## Netlify Deployment Guide
+Follow the steps below to deploy the Card Checker Web Application to a production environment. We are using [Netlify](https://www.netlify.com/) as our chosen deployment platform.
+1. Push your project to a Git repository (GitHub, GitLab, or Bitbucket).
+2. Log in to your [Netlify account](https://app.netlify.com/) and navigate to the 'Sites' tab.
+3. Click on the 'New site from Git' button, connect to your Git provider, and select the cc_Genckr repository.
+4. In the 'Site settings', you can set up a custom domain or use the default Netlify subdomain. To use the URL https://cc-genchkr.netlify.app/, enter 'cc-genchkr' as the subdomain.
+5. Click 'Deploy site' to begin the deployment process.
+For more details on the deployment process, you can follow the official Netlify documentation: https://www.netlify.com/docs/
 ### Deploying the application
 
 4. Navigate to the working directory of the Card Checker project:
@@ -161,3 +161,5 @@ The testing process for this application includes unit testing, integration test
 ## Deployment
 
 After completing the coding and testing of the application, follow the deployment guide provided to successfully deploy the Card Checker Web Application to a production environment. Monitor the application's performance and logs to ensure it is running smoothly and address any issues that arise.
+
+# Cc_genchkr
