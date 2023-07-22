@@ -1,6 +1,6 @@
 {
-  "name": "cc_genckr",
-  "private": true,
+    "name": "cc_genckr",
+    "private": true,
   "license": "ISC",
   "version": "1.0.0",
   "description": "Card Checker Web Application using Express",
