@@ -17,6 +17,10 @@ app.set('views', './templates');
 app.set('view engine', 'html');
 app.engine('html', require('ejs').renderFile);
 // Routes placeholder
+// Handler for root path
+app.get('/', (req, res) => {
+  res.render('index', { title: 'Card Checker Web Application' });
+});
 // Handler for card validation
 app.post('/validate_card', async (req, res) => {
   try {
@@ -44,6 +48,7 @@ app.post('/validate_card', async (req, res) => {
 // Listen to PORT
 app.listen(PORT, () => {
   console.log(`Server started on port ${PORT}`);
+
 
 
 
