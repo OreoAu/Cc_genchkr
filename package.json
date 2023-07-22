@@ -1,9 +1,16 @@
 {
   "name": "cc_genckr",
+  "name": "cc_genckr",
+=======
+    "name": "cc_genckr",
+    "private": true,
+  "license": "ISC",
+>>>>>>> 89d2d849003d2a4d6c2baed8133ae7658b13c03b
   "version": "1.0.0",
   "description": "A web-based software application that checks for the validity of credit card numbers and checks the card's brand type.",
   "private": true,
   "scripts": {
+<<<<<<< HEAD
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
@@ -13,12 +20,26 @@
     "next": "11.0.1",
     "react": "17.0.2",
     "react-dom": "17.0.2"
+    "ejs": "^3.1.6",
+    "webpack": "^4.46.0",
+    "babel": "^7.16.7",
+    "stripe": "^8.198.0",
+    "express": "^4.17.1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+    "style-loader": "^3.3.1",
+"scripts": {
+  ...
+},
+"dependencies": {
+  ...
+}
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+>>>>>>> 89d2d849003d2a4d6c2baed8133ae7658b13c03b
   },
   "devDependencies": {
     "eslint": "7.29.0",
     "eslint-config-next": "11.0.1"
-    "postcss": "^8.4.5",
-  },
-    "node": "14.x"
-    "style-loader": "^3.3.1",
   }
+
