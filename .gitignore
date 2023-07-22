@@ -1,0 +1,17 @@
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*$py.class
+
+# Node.js
+node_modules/
+
+# Development Environment
+.env
+*.log
+.DS_Store
+
+

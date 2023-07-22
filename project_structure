@@ -1,0 +1,12 @@
+### Project Structure
+
+For this Card Checker Web Application, we have chosen to use Node.js with the Express framework. Below is the file and directory structure for this project:
+
+- **app.js**: Main application file
+- **package.json**: Lists project dependencies and configurations
+- **node_modules/**: Directory holding the installed dependencies
+- **routes/**: Directory containing the routing definitions
+- **controllers/**: Directory with controller functions for the application
+- **views/**: Directory for storing template files
+- **public/**: Directory for static files (CSS, JavaScript, images, etc.)
+- **config/**: Directory for configuration files (such as database, security, and API settings)

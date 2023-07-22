@@ -1,0 +1,32 @@
+{
+  "name": "cc_genckr",
+  "private": true,
+  "license": "ISC"
+  "version": "1.0.0",
+  "description": "Card Checker Web Application using Express",
+  "repository": "https://github.com/user/cc_Genckr.git",
+
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "stripe": "^8.198.0",
+    "express": "^4.17.1"
+  },
+    "ejs": "^3.1.6",
+    "babel": "^7.16.7",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.1",
+    "postcss": "^8.4.5",
+    "postcss-loader": "^6.2.1",
+    "css-loader": "^6.6.0",
+    "style-loader": "^3.3.1"
+  "author": "",
+
+}
+
+
